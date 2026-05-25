@@ -3,5 +3,6 @@ $NetBSD$
 BLAKE2s (xtrkcad-source-5.3.1GA.tar.gz) = 5345eb5c130ace95517382631ae31b895191f481fc9f5762aef73d5ecc336b93
 SHA512 (xtrkcad-source-5.3.1GA.tar.gz) = b65c70d81f8ec0af770632662342152c14f82ba5eee43803b142bd015140e4af1007f4ece339026cc4a6b6c4f92114f4a3465ccd393f5537d52200e9763632c1
 Size (xtrkcad-source-5.3.1GA.tar.gz) = 14304244 bytes
+SHA1 (patch-CMake_FindLibzip.cmake) = be2db9c060b56cfbbb66d6537bbf1eb15148d2b2
 SHA1 (patch-CMake_FindRsvgConverter.cmake) = e91bbd44656e135c137863333cc93b0c58dd9ba5
 SHA1 (patch-app_bin_bitmaps_CMakeLists.txt) = d0295b2994689f727d7cc9c03c5853bc11738c40
