@@ -1,0 +1,22 @@
+$NetBSD$
+
+--- /dev/null	2026-05-25 13:57:55.478511954 +0000
++++ CMake/FindRsvgConverter.cmake
+@@ -0,0 +1,17 @@
++
++# Try to find the rsvg-converter command-line SVG rasterizer
++# Once done this will define
++#
++# RsvgConverter_FOUND
++# RsvgConverter_EXECUTABLE   Where to find RsvgConverter
++
++find_program(
++	RsvgConverter_EXECUTABLE
++	NAMES rsvg-convert
++	DOC "rsvg-converter command-line SVG rasterizer"
++)
++
++# handle the QUIETLY and REQUIRED arguments and set RsvgConverter_FOUND to TRUE if
++# all listed variables are TRUE
++include(FindPackageHandleStandardArgs)
++find_package_handle_standard_args(RsvgConverter REQUIRED_VARS RsvgConverter_EXECUTABLE)

@@ -10,6 +10,8 @@ HOMEPAGE=	http://www.xtrkcad.org/
 COMMENT=	CAD program for designing model railroads
 LICENSE=	apache-2.0
 
+TOOL_DEPENDS+= librsvg:../../graphics/librsvg
+
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
