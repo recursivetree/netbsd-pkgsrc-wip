@@ -1,5 +1,8 @@
 $NetBSD$
 
+Convert SVGs to PNGs using librsvg instead of inkscape since inkscape requires
+a desktop session even in batch mode.
+
 --- /dev/null	2026-05-25 13:57:55.478511954 +0000
 +++ CMake/FindRsvgConverter.cmake
 @@ -0,0 +1,17 @@
