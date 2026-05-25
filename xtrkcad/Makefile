@@ -15,7 +15,13 @@ TOOL_DEPENDS+=	librsvg>=2.60.2:../../graphics/librsvg
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
-
+.include "../../mk/bsd.prefs.mk"
+PLIST_SRC=  PLIST.common
+.if ${OPSYS} == "Darwin"
+PLIST_SRC+= ${.CURDIR}/PLIST.darwin
+.else
+PLIST_SRC+= ${.CURDIR}/PLIST.others
+.endif
 
 .include "../../devel/cmake/build.mk"
 .include "../../x11/gtk2/buildlink3.mk"
