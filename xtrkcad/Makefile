@@ -15,6 +15,8 @@ TOOL_DEPENDS+= librsvg:../../graphics/librsvg
 USE_TOOLS+=	pkg-config
 USE_LANGUAGES=	c c++
 
+
+
 .include "../../devel/cmake/build.mk"
 .include "../../x11/gtk2/buildlink3.mk"
 .include "../../archivers/libzip/buildlink3.mk"
