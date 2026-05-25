@@ -1,7 +1,10 @@
 $NetBSD$
 
+$NetBSD$
+
 UNIX AND NOT APPLE does not imply we are a linux system. Instead, fall back to
 the apple path on NetBSD.
+
 
 --- CMake/FindLibzip.cmake.orig	2026-05-25 17:27:28.576514792 +0000
 +++ CMake/FindLibzip.cmake
